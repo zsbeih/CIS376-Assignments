@@ -1,10 +1,8 @@
-# Twitter API Project
-
-## Setup Instructions
+# Twitter REST APIs Assignment2
 
 1. Clone this repository
-2. Place your `favs.json` file in the root directory
-3. Install requirements:
+2. Make sure `favs.json` is in your root directory
+3. Install requirements through requirements.txt:
 ```
 pip install -r requirements.txt
 ```
