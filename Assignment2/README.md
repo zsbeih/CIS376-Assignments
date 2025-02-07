@@ -11,4 +11,4 @@ pip install -r requirements.txt
  flask --app tweets_getter run
 ```
 
-View the contents through the following links:  `http://127.0.0.1:5000/links`, `http://127.0.0.1:5000/tweets`, `http://127.0.0.1:5000/tweets/<tweet_id>`, `http://127.0.0.1:5000/users/<screen_name>`.
+View the contents through the following links:  `http://127.0.0.1:5000/tweets`, `http://127.0.0.1:5000/links`, `http://127.0.0.1:5000/tweets/<tweet_id>`, `http://127.0.0.1:5000/users/<screen_name>`.
