@@ -1,14 +1,17 @@
-# Twitter REST APIs Assignment2
+1. Make sure `favs.json` and `tweets_getter.py` are in the root directory
+2. Ensure python version 3.12.9 is installed
+3. Install requirements containing the flask version:
 
-1. Clone this repository
-2. Make sure `favs.json` is in your root directory
-3. Install requirements through requirements.txt:
-```
-pip install -r requirements.txt
-```
-4. Run the Flask application:
-```
- flask --app tweets_getter run
-```
+    pip install -r requirements.txt
+                or
+    pip install flask
 
-View the contents through the following links:  `http://127.0.0.1:5000/tweets`, `http://127.0.0.1:5000/links`, `http://127.0.0.1:5000/tweets/<tweet_id>`, `http://127.0.0.1:5000/users/<screen_name>`.
+4. Run the program:
+
+    flask --app tweets_getter run 
+
+View the contents for each of the functions through the following links: 
+    http://127.0.0.1:5000/tweets
+    http://127.0.0.1:5000/links
+    http://127.0.0.1:5000/tweets/<tweet_id>
+    http://127.0.0.1:5000/users/<screen_name>
